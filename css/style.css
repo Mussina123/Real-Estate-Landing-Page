@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: red;
+}
+
+ul {
+display: flex;
+margin: 0;
+}
+
+.mainLeft {
+    background-color: black;
+    width: 60%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: white;
+    padding: 2rem 3rem 0 0 ;
+}
+
+.mainRight {
+    border: 2px solid black;
+}
