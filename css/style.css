@@ -5,6 +5,7 @@
 /* Box Model Hack */
 * {
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
   }
   
 body {
@@ -27,26 +28,56 @@ body {
 
   .grid-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: .75fr 1fr;
       grid-auto-rows: minmax(100px, auto);
       /* grid-column-gap: 20px; */
       /* justify-content: center;
       align-content: center; */
-      height: 98vh;
+      height: 100vh;
   }
 
-  .grid-item-1 {
+  /* .grid-item-1 {
       grid-column: 1 / -1;
-  }
+  } */
 
 .grid-item-2 {
     /* grid-column-start: 1;
     grid-column-end: 2; */
     grid-row: span 4;
+    background-color: rgb(24, 23, 23);
+    color: white;
 }
 
 .grid-item-3 {
     /* grid-column-start: 2;
     grid-column-end: 3; */
     grid-row: span 4;
+    /* background-image: url('https://www.gannett-cdn.com/presto/2021/01/12/NPBD/08d0fd5e-2255-4d49-b608-e83342ae4615-PBN_POOL_REAR_535_N_County_Road_HiRes_PictureItSoldFL.jpg?width=1200&disable=upscale&format=pjpg&auto=webp'); */
+    /* background-position: center; */
+    /* background-size: con; */
+}
+
+.nav {
+    display: flex;
+    border: 2px solid blue;
+    gap: 4%;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+}
+
+.logo {
+    padding-right: 10%;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+img {
+    height: 99.2vh;
+    width: 100%;
 }
