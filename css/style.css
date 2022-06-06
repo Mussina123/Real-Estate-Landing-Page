@@ -55,6 +55,7 @@ body {
     /* background-image: url('https://www.gannett-cdn.com/presto/2021/01/12/NPBD/08d0fd5e-2255-4d49-b608-e83342ae4615-PBN_POOL_REAR_535_N_County_Road_HiRes_PictureItSoldFL.jpg?width=1200&disable=upscale&format=pjpg&auto=webp'); */
     /* background-position: center; */
     /* background-size: con; */
+    overflow-y: hidden;
 }
 
 .nav {
@@ -66,6 +67,7 @@ body {
     justify-content: center;
     padding: 5%;
     color: white;
+    font-size: 1rem;
 }
 
 .logo {
@@ -78,6 +80,24 @@ li {
 }
 
 img {
-    height: 99.2vh;
+    height: 100vh;
     width: 100%;
+}
+
+.leftMain {
+font-size: 2.5rem;
+text-align: center;
+}
+
+.email {
+    text-align: center;
+}
+
+h6 {
+    padding: 0 2%;
+    margin: 0 0 5% 0;
+}
+
+h1 {
+    margin-bottom: 10%;
 }
